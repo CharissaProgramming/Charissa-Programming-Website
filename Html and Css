@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Charissa Programming</title>
+	<!--This font is for the h1 header Charissa Programming(permanent marker) rock salt for game names, item for normal text-->
+	<link href="https://fonts.googleapis.com/css?family=Itim|Permanent+Marker|Rock+Salt" rel="stylesheet">  
+	<style>
+		.header{
+			background-color: #f7f1ea;
+			color: #510440;
+		}
+		h1{
+			font-size: 3em;
+			text-align: center;
+			font-family: 'Permanent Marker', monospace;
+			margin: 0;
+		}
+		h4{
+			color: #510440;
+			font-size: 1.5em;
+			font-family: "Rock Salt", monospace;
+			margin: 0;
+			animation-name: scrolling-h4;
+			animation-duration: 30s;
+			position: relative;
+			animation-iteration-count: infinite;
+		}
+		@keyframes scrolling-h4{
+			0%{
+				left:0%;
+				font-color: #510440;
+				animation-timing-function: linear;
+			}
+			50%{
+				left: 50%;
+				font-color: #510440;
+				animation-timing-function: linear;
+			}
+			100%{
+				left: 100%;
+				font-color: #510440;
+				animation-timing-function: linear;
+			}
+		}
+	</style>
+    
+	
+	<script>	
+	</script>
+    
+	
+	</head>
+		
+	<body>
+	<div class="header">
+		<h1>Charissa Programming</h1>
+		<h4 id="scrolling-h4">A place for my mini projects</h4>
+	</div>
+	
+	</body>
+
+</html>
